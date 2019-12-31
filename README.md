@@ -1,52 +1,77 @@
-ThinkPHP 6.0
+数据库课设
 ===============
 
 > 运行环境要求PHP7.1+。
 
-## 主要新特性
+>基于thinkPHP6.0和xadmin开发
 
-* 采用`PHP7`强类型（严格模式）
-* 支持更多的`PSR`规范
-* 原生多应用支持
-* 更强大和易用的查询
-* 全新的事件系统
-* 模型事件和数据库事件统一纳入事件系统
-* 模板引擎分离出核心
-* 内部功能中间件化
-* SESSION/Cookie机制改进
-* 对Swoole以及协程支持改进
-* 对IDE更加友好
-* 统一和精简大量用法
+## 主要功能
 
-## 安装
+* 支持登录功能
+* 学生信息管理
+* 学籍变动管理
+* 奖励记录管理
+* 处罚记录管理
+* 管理员管理
+* 成绩管理
+* 多选项卡切换
+* 可以在当前界面弹出查询框
 
-~~~
-composer create-project topthink/think tp 6.0.*-dev
-~~~
 
-如果需要更新框架使用
-~~~
-composer update topthink/framework
-~~~
+## 展示
 
-## 文档
+>登录界面
 
-[完全开发手册](https://www.kancloud.cn/manual/thinkphp6_0/content)
+![](1.png '主界面')
 
-## 参与开发
+>后台
 
-请参阅 [ThinkPHP 核心框架包](https://github.com/top-think/framework)。
+![](2.png '后台')
+
+>数据可视化
+
+![](3.png '数据可视化')
+
+
+>学生信息管理
+
+![](4.png '学生信息管理')
+
+>可在当前界面弹出结果
+
+![](5.png '可在当前界面弹出结果')
+
+
+
+
+## 赞助作者
+
+如果觉得本项目不错的，可以赞助支持一下我哦！
+
+###  微信二维码
+![](https://xiaoyou66.com/wp-content/uploads/2019/03/mm_facetoface_collect_qrcode_1553935372531.png)
+### 支付宝
+![](https://xiaoyou66.com/wp-content/uploads/2019/03/1553935348345.png)
+
+## 使用
+
+本项目基于thinkPHP开发，只需要提供PHP7.x的运行环境即可。数据库文件放在项目的根目录下，需要的可以自己导入。
+
+导入后默认的账号密码是admin和123。
+
+数据库的账号和密码都是keshe。自己记得修改数据库的账号和密码。
+
+
 
 ## 版权信息
 
-ThinkPHP遵循Apache2开源协议发布，并提供免费使用。
+本源码遵循Apache2开源协议发布，并提供免费使用。
 
 本项目包含的第三方源码和二进制文件之版权信息另行标注。
 
-版权所有Copyright © 2006-2019 by ThinkPHP (http://thinkphp.cn)
+版权所有Copyright © 2006-2019 by xiaoyou (https://xiaoyou66.com)
 
 All rights reserved。
 
-ThinkPHP® 商标和著作权所有者为上海顶想信息科技有限公司。
 
 更多细节参阅 [LICENSE.txt](LICENSE.txt)
